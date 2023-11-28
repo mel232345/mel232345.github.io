@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,700&family=Playfair+Display&display=swap');
+
+/*font-family: 'playfair', sans-serif;*/
+
+*{font-family: Arial, Helvetica, sans-serif;
+}
+* {box-sizing: border-box;
+}
+header {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #589;
+  }
+  
+  header h1 {
+    flex: 1 1 20%;
+   align-items: center;
+      justify-content: center;
+    
+     
+  }
+  header nav {
+    flex: 1 1 80%
+  }
+  main {
+    
+    padding: 10px;
+   
+  }
+  nav {
+    align-self: center;
+    padding: 15px;
+    position: relative;
+   
+ 
+text-align: center;
+    font-size: 20px;
+
+      border-radius: 5px;
+      
+  
+
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+  list-style-type: none;
+  }
+  nav ul li a {
+    display: inline-block;
+    padding: 10px;
+  }
+  /* code for making a button */
+  .c2a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background: #589;
+    color: #fff;
+    border-radius: 10px;
+    list-style-type: none;
+  }
+  .c2a:hover {
+    background: #ffa500;
+    color: #000;
+  }
+  img{
+    max-width: 30%;
+    max-height: 30%
+    }
+
+
+  form {
+    max-width: 50%;
+    background: #589;
+    padding: 20px;
+    margin: 20px;
+    
+  }
+  input[type="text"], select, textarea, input[type="email"], label {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    
+  }
+  label {
+    border: none;
+    font-size: 1.3rem;
+    color: #fff;
+  }
+  input[type=submit], input[type=reset] {
+    width: 100%;
+    padding: 14px 20px;
+    background: #4caf50;
+    color: #fff;
+     border-radius: 4px;
+     margin: 8px 0px;
+    cursor: pointer;
+  }
+ 
+  @media (max-width: 700px) {
+    form {
+      max-width: 100%;
+    }
+  }
+  
